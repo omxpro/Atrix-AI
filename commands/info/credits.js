@@ -8,7 +8,9 @@ $description[1;
 
 ▫️ You Guys | Inviters Who Invited Me !!!!] 
 
-▫️ Source code [**Here**](https://discord.gg/VYZPueCy6g '**Akarui Development**') `
+▫️ Source code [**Here**](https://github.com/NotEnd1/Atrix-AI '**Here**') 
+
+▫️ Made By ! NotEnd#0001] $footer[1; 'Credits'] $addTimestamp[1]`
 
 
 })
