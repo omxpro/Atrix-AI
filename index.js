@@ -2,7 +2,7 @@ const aoijs = require ('aoi.js')
 require('dotenv').config()
 const bot = new aoijs.Bot({
    token: process.env.TOKEN, //Discord Bot Token
-   prefix: process.end.PREFIX, //Discord Bot Prefix
+   prefix: ?, //Discord Bot Prefix
    intents: "all", //Discord Intents 
    mobile: true 
  })
