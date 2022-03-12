@@ -1,8 +1,8 @@
-const aoijs = require ('aoi.js')
-require('dotenv').config()
-const bot = new aoijs.Bot({
+ const aoijs = require ('aoi.js')
+ require('dotenv').config()
+ const bot = new aoijs.Bot({
    token: process.env.TOKEN, //Discord Bot Token
-   prefix: ?, //Discord Bot Prefix
+   prefix: process.env.PREFIX, //Discord Bot Prefix
    intents: "all", //Discord Intents 
    mobile: true 
  })
@@ -22,12 +22,3 @@ const bot = new aoijs.Bot({
 
 
 
-bot.interactionCommand({
-name: "aoijs", 
-prototype : 'slash',
-code: `$interactionReply[AOIjs is an awesome package!]`
-/*
-The code will be execute once /aoijs has been ran
-*/
-})
-bot.onInteractionCreate()
