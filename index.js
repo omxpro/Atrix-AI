@@ -1,7 +1,7 @@
 const aoijs = require ('aoi.js')
 const bot = new aoijs.Bot({
-   token: "OTQ4OTI1MTk0MzYwMTkzMDc0.YiC5dA.65AQ-A0Sp0ho7FTsjuJaqeaFmho", //Discord Bot Token
-   prefix: "?", //Discord Bot Prefix
+   token: process.env.TOKEN, //Discord Bot Token
+   prefix: process.end.PREFIX, //Discord Bot Prefix
    intents: "all", //Discord Intents 
    mobile: true 
  })
