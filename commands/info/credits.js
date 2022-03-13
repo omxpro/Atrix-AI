@@ -10,7 +10,7 @@ $description[1;
 
 ▫️ Source code [**Here**](https://github.com/NotEnd1/Atrix-AI '**Here**') 
 
-▫️ Made By ! NotEnd#0001] $footer[1; 'Credits'] $addTimestamp[1]`
+▫️ Made By ! NotEnd#0001] $footer[1; 'Credits'] $addTimestamp[1] $color[1; #FF000]`
 
 
 })
