@@ -6,10 +6,13 @@ $description[1;
 Hi I am **Atrix ai**, My prefix is \`?\`.  Invite Me By Clicking  [**Here**](https://discord.com/api/oauth2/authorize?client_id=940957816636723250&permissions=1644971425783&scope=bot%20applications.commands '**Here**')
 
 <a:funny:952467642285973524> | **Fun Commands :-**
-\`?changemymind\`,
+\`?changemymind\`, \`?meme\` , \`?wallpaper\`
 
 <:info:952468166775300106> | **Info Commands :-**
 \`?credits\`, \`?invite\` , \`?help\` , \`?ping\`
+
+<a:utility2:952549158479335484> | **Utility Commands :-**
+\`?avatar\`,
 
 **<:Builder:952468926472814622> Bot Under Development <:Builder:952468926472814622> !!**
 

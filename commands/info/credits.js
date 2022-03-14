@@ -6,11 +6,12 @@ $description[1;
 
 ▫️ [**Aoi.js | Akarui Development**](https://discord.gg/VYZPueCy6g '**Akarui Development**') - For Helping Me coding and solving The Problems and errors.
 
-▫️ You Guys | Inviters Who Invited Me !!!!] 
+▫️ You Guys | Inviters Who Invited Me !!!!
 
 ▫️ Source code [**Here**](https://github.com/NotEnd1/Atrix-AI '**Here**') 
 
-▫️ Made By ! NotEnd#0001] $footer[1; 'Credits'] $addTimestamp[1] $color[1; #FF000]`
+▫️ Made By ! NotEnd#0001
+]$footer[1; 'Credits'] $addTimestamp[1] $color[1; #FF000]`
 
 
 })

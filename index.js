@@ -17,8 +17,28 @@
   text: "?help | Made By ! NotEnd#0001.",
   type: "PLAYING",
   status: "dnd",
-  time: 12
+  time: 20
 })
 
 
+ bot.status({
+  text: "?help | Developing...",
+  type: "PLAYING",
+  status: "dnd",
+  time: 10
+})
 
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/', (req, res) => res.send('Ready With $pingms'));
+
+app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
+
+
+//Ready Event
+bot.readyCommand({
+    channel: "",
+    code: `$log[Ready on $userTag[$clientID]]`
+})
