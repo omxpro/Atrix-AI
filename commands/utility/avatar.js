@@ -1,5 +1,5 @@
 module.exports = ({
   name:'avatar',
   aliases: ['pfp'],
-  code:`$userAvatar`
+  code:`$title[1; Your PFP!!]$image[1; $userAvatar]`
 })

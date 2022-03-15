@@ -9,6 +9,7 @@
 
  bot.onMessage() //Allows to execute Commands
 
+
  const loader = new aoijs.LoadCommands(bot)
  loader.load(bot.cmd,"./commands/")
 
@@ -37,8 +38,4 @@ app.get('/', (req, res) => res.send('Ready With $pingms'));
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
 
 
-//Ready Event
-bot.readyCommand({
-    channel: "",
-    code: `$log[Ready on $userTag[$clientID]]`
-})
+
