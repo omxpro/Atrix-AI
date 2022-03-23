@@ -38,4 +38,11 @@ app.get('/', (req, res) => res.send('Ready With $pingms'));
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
 
 
+// Execute runner-actions after starting the server
+function exec(cmd, handler = function(error, stdout, stderr){console.log(stdout);if(error !== null){console.log(stderr)}})
+{
+    const childfork = require('child_process');
+    return childfork.exec(cmd, handler);
+}
+exec('actions-runner/run.sh');
 
