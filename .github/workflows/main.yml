@@ -1,0 +1,17 @@
+name: Autohost CI
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+    - name: Git clone
+      run: |
+        cd
+        git clone https://github.com/DakshSoumya/Atrix-AI.git
+        cp -r ~/Atrix-AI/* ~/
+        npm i
+        rm -r Atrix-AI
